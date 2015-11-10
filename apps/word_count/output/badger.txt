@@ -1,0 +1,4 @@
+badger 12
+mushroom 3
+snake! 7
+soup 1

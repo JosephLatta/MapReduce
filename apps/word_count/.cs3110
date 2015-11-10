@@ -1,0 +1,2 @@
+compile.opam_modules = async core
+compile.threads      = true

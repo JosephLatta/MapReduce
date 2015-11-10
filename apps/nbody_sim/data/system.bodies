@@ -1,0 +1,35 @@
+# Arthur Sams (aas258) and Charles Weill (cew225)
+let system = 
+  let bigM = mass *. 25. in
+  let medM = mass in 
+  let lilM = mass /. 15000. in   
+  let pM = 2.6 in
+  let nM = -.pM in  
+
+# major sun
+pos: (0,0); vel: (0,0); mass = 2.25e12
+
+# Minor Suns
+pos: (-100., 100.); velocity = (pM/.10.0,0.0)}; mass = 9e10; 
+pos: ( 100.,-100.); velocity = nM/.10.,0.0};    mass = 9e10; 
+pos: ( 100., 100.); velocity = 0.0,nM/.10.};    mass = 9e10; 
+pos: (-100.,-100.); velocity = 0.0,pM/.10.0};   mass = 9e10; 
+
+# Moons move clockwise around minor suns
+position = (  75.,  75.); velocity = (0.,pM); mass=lilM};
+position = ( 125., 125.); velocity = (0.,nM); mass=lilM};
+position = (  75., 125.); velocity = (pM,0.); mass=lilM};
+position = ( 125.,  75.); velocity = (nM,0.); mass=lilM};
+position = ( -75., -75.); velocity = (0.,nM); mass=lilM};
+position = (-125.,-125.); velocity = (0.,pM); mass=lilM};
+position = ( -75.,-125.); velocity = (nM,0.); mass=lilM};
+position = (-125., -75.); velocity = (pM,0.); mass=lilM};
+position = (  75., -75.); velocity = (pM,0.); mass=lilM};
+position = ( 125.,-125.); velocity = (nM,0.); mass=lilM};
+position = (  75.,-125.); velocity = (0.,pM); mass=lilM};
+position = ( 125., -75.); velocity = (0.,nM); mass=lilM};
+position = ( -75.,  75.); velocity = (nM,0.); mass=lilM};
+position = (-125., 125.); velocity = (pM,0.); mass=lilM};
+position = ( -75., 125.); velocity = (0.,nM); mass=lilM};
+position = (-125.,  75.); velocity = (0.,pM); mass=lilM};
+

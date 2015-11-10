@@ -1,0 +1,11 @@
+# Four small bodies around one large one
+
+# big body
+pos: (0., 0.); vel: (0., 0.); mass: 45e12
+
+# lil bodies
+pos: ( 50.,   0.); vel: ( 0.0, -2.6); mass: 9e9
+pos: (  0.,  50.); vel: ( 2.6,  0.0); mass: 9e9
+pos: (-50.,   0.); vel: ( 0.0,  2.6); mass: 9e9
+pos: (  0., -50.); vel: (-2.6,  0.0); mass: 9e9
+
